@@ -1,0 +1,17 @@
+Generating 1000 random numbers
+argv[0]:generate
+argv[1]:1000
+argv[2]:10
+argv[3]:9999
+Starting system sort
+
+real	0m0.014s
+user	0m0.003s
+sys	0m0.000s
+Starting my sort
+
+real	0m0.141s
+user	0m0.005s
+sys	0m0.009s
+sort: mysort.out:11: disorder: 104
+Complete
