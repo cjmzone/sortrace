@@ -1,10 +1,3 @@
-// Connor McKenna
-// (CECS 325-01)
-// Program 3 - Sorting Contest
-// Due Date (10/9/2023)
-// I certify that this program is my own original work. I did not copy any part of this program from
-// any other source. I further certify that I typed each and every line of code in this program.
-
 #include <iostream>
 #include <fstream>
 
@@ -13,6 +6,8 @@ using std::endl;
 using std::ifstream;
 using std::ofstream;
 using std::ios;
+
+
 
 int main(int count, char *file[]){
 
@@ -31,9 +26,9 @@ int main(int count, char *file[]){
         ofstream fileOut;
         fileOut.open(file[2], ios::out | ios::trunc);
 
-        int size = 0; 
+        int size = 0;
         int num;
-        // get the size 
+        // get the size
         while(fileIn >> num){
                 size++;
         }
@@ -41,7 +36,7 @@ int main(int count, char *file[]){
         fileIn.close();
         fileIn.open(file[1]);
 
-        int * r_numbers= new int[size];
+         int * r_numbers= new int[size];
 
         for(int i = 0; i < size; i++) {
                 fileIn >> r_numbers[i];
@@ -61,8 +56,9 @@ int main(int count, char *file[]){
                 fileOut << r_numbers[i] << endl;
         }
 
-        delete []r_numbers; 
+        delete []r_numbers;
         fileIn.close();
         fileOut.close();
         return 0;
 }
+                                             

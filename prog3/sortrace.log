@@ -1,15 +1,9 @@
-Generating 1000000 random numbers
-argv[0]:generate
-argv[1]:1000000
-argv[2]:100000
-argv[3]:999999
-Starting system sort
 
-real	0m0.231s
-user	0m0.894s
-sys	0m0.056s
-Starting my sort
+real	0m0.002s
+user	0m0.001s
+sys	0m0.000s
 
-real	722m35.588s
-user	722m22.347s
-sys	0m13.038s
+real	0m0.129s
+user	0m0.005s
+sys	0m0.011s
+sort: mysort.out:9: disorder: 115
